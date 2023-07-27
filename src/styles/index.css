@@ -1,12 +1,52 @@
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(66, 66, 66);
+    height: 40px;
+    align-items: center;
+}
 
-/* 
+.nav-element{
+    width: 225px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.jumbotron-container{
+    border: 0.5px solid rgb(69, 69, 69);
+    width: 870px;
+    height: 200px;
+    margin-top: 0px;
+    background-color: rgb(168, 168, 168);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buutn{
+    background-color: rgb(64, 64, 236);
+    color: white;
+    border-radius: 10px;
+}
+
+.Carrd-container{
+display: flex;
+flex-direction: row;
+}
